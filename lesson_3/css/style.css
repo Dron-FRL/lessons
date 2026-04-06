@@ -1,0 +1,45 @@
+h1,h2,h3,h4 {
+	color: red;
+}
+#chapter {
+	color: rgb(6, 89, 89);
+}
+.color {
+	color: rgb(33, 151, 90);
+}
+.list-link {
+	color: blue;
+}
+.list {
+	color: green;
+}
+.social {
+	color: blue;
+}
+.top {
+	color: blueviolet;
+}
+.text-0 {
+	color: red;
+}
+#color-green {
+	color: green;
+}
+.text p {
+	color: rgb(255, 255, 51);
+}
+.text-2 .p-color {
+	color: grey;
+}
+.text-3 > p {
+	color: yellow;
+}
+#p-color {
+	color: red;
+}
+.color-grey {
+	color: grey;
+}
+.text-12 {
+	color: rgb(255, 170, 0);
+}
