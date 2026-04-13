@@ -1,0 +1,42 @@
+
+
+body {
+	font-family: "Poppins", "Montserrat";
+}
+.page {
+	margin: 328px 28px 236.93px 739px;
+}
+.block {
+	height: 443px;
+	width: 643px;
+	background-color: #FFF3E3;
+	padding: 62px 43px 37px 39px;
+}
+.arrival {
+	font-size: 16px;
+	letter-spacing: 3px;
+	font-weight: 600;
+}
+.title {
+	font-size: 52px;
+	font-weight: 700;
+	color: #B88E2F;
+	line-height: 65px;
+}
+.div.arrival p {
+	font-family: "Poppins";
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+}
+.buttom {
+	display: block;
+	width: 222px;
+	height: 74px;
+	color: #FFFFFF;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 25px 72px;
+	background-color: #B88E2F;
+}
