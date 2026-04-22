@@ -1,0 +1,132 @@
+
+
+body {
+	font-family: "DM Sans", "Poppins", sans-serif;
+
+}
+.block::before {
+	content: "";
+	display: inline-block;
+	width: 169px;
+	height: 4px;
+	background: linear-gradient(98deg, rgba(18, 255, 70, 1) 0%, rgba(0, 0, 0, 1) 100%);
+	margin-bottom: 21px;
+}
+.block {
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	max-width: 474px;
+}
+.block__title {
+	font-size: 50px;
+	font-weight: normal;
+	letter-spacing: -1.26px;
+	margin-bottom: 34px;
+}
+.block__title span {
+	font-weight: bold;
+	color: #1AAF5B;
+}
+.block__text {
+	font-size: 20px;
+	line-height: 1.4;
+	letter-spacing: -0.5px;
+	color: #212020a8;
+	margin-bottom: 58px;
+}
+.block__link {
+	display: inline-block;
+	color: #FFFFFF;
+	background: #1AAF5B;
+	font-weight: 700;
+	font-size: 17px;
+	letter-spacing: -0.43px;
+	padding: 25px 60px 23px 40px;
+	border-radius: 0px 20px 0px 0px;
+	min-width: 209px;
+	margin-bottom: 30px;
+}
+.block__link::after {
+	content: "";
+	display: inline-block;
+	background: url("../img/Path.svg") center / contain no-repeat;
+	width: 20px;
+	height: 9.6px;
+	margin-left: 20px;
+}
+.block__link:hover {
+	background: #1a7f46;
+	outline: 2px solid #000000;
+	font-size: 18px;
+}
+.block__link:active {
+	color: blue;
+}
+/* !GAME */
+.block__game {
+	background: #95afa0;
+	margin: 0 auto;
+	width: 800px;
+	height: 700px;
+}
+[class*="item"] {
+		background-color: #000;
+	}
+.block__game-item:nth-child(1) {
+	width: 50px;
+	height: 150px;
+}
+.block__game-item:nth-child(2) {
+	height: 50px;
+	width: 150px;
+	margin-left: 50px;
+	margin-top: -50px;
+}
+.block__game-item:nth-child(3) {
+	width: 50px;
+	height: 150px;
+	margin-left: 200px;
+	margin-top: -50px;
+}
+.block__game-item:nth-child(4) {
+	width: 150px;
+	height: 50px;
+	margin-left: 250px;
+	margin-top: -50px;
+}
+
+.block__game-item:nth-child(5) {
+	width: 50px;
+	height: 150px;
+	margin-left: 350px;
+}
+
+.block__game-item:nth-child(6) {
+	width: 150px;
+	height: 50px;
+	margin-left: 350px;
+}
+
+.block__game-item:nth-child(7) {
+	width: 50px;
+	height: 150px;
+	margin-left: 450px;
+}
+
+.block__game-item:nth-child(8) {
+	width: 150px;
+	height: 50px;
+	margin-left: 450px;
+}
+
+.block__game-item:nth-child(9) {
+	width: 50px;
+	height: 50px;
+	margin-left: 550px;
+}
+[class*="item"]:not(:first-child) {
+	visibility: hidden;
+}
+.block__game-item:hover + .block__game-item, .block__game-item:hover {
+	visibility: visible;
+}
