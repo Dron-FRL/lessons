@@ -65,24 +65,6 @@ body {
 	text-align: center;
 }
 
-.faq-block__header {}
-
-.faq-block__icon {
-	margin-bottom: 8px;
-}
-
-.faq-block__sub-title {
-	margin-bottom: 26px;
-	color: #c4b9b983;
-}
-
-.faq-block__title {
-	margin-bottom: 70px;
-	color: #ffffff;
-	font-size: 52px;
-	font-weight: medium;
-}
-
 .faq-block__items {}
 
 .faq-block__item {}
