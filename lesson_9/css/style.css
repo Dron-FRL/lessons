@@ -1,0 +1,99 @@
+
+
+body {
+	font-family: "Inter Display", "Poppins", sans-serif;
+	background-color: #1E1E1F;
+}
+
+.section-blog {}
+
+.section-blog__body {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.section-blog__header {
+	text-align: center;
+}
+
+.blog-section {}
+
+.blog-section__icon {
+	margin-bottom: 8px;
+}
+
+.blog-section__sub-title {
+	margin-bottom: 26px;
+	color: #c4b9b983;
+}
+
+.blog-section__title {
+	margin-bottom: 70px;
+	color: #ffffff;
+	font-size: 52px;
+	font-weight: medium;
+}
+
+.section-blog__row {
+	display: flex;
+}
+
+.section-blog__column {}
+
+.section-blog__column--left {
+	flex: 0 0 60%;
+}
+
+.blog-section-item {}
+
+.blog-section-item__image {}
+
+.blog-section-item__button-link {}
+
+.blog-section-item__title {}
+
+.blog-section-item__text {}
+
+.blog-section-item__link {}
+
+.section-blog__column--right {
+	flex: 0 0 40%;
+		
+}
+
+.faq-block {
+	text-align: center;
+}
+
+.faq-block__header {}
+
+.faq-block__icon {
+	margin-bottom: 8px;
+}
+
+.faq-block__sub-title {
+	margin-bottom: 26px;
+	color: #c4b9b983;
+}
+
+.faq-block__title {
+	margin-bottom: 70px;
+	color: #ffffff;
+	font-size: 52px;
+	font-weight: medium;
+}
+
+.faq-block__items {}
+
+.faq-block__item {}
+
+.item-faq {}
+
+.item-faq__title {}
+
+.item-faq__icon {
+}
+
+
+
+
